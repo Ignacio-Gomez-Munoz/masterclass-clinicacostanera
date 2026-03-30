@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="es"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Reporte Estratégico: Clínica Costanera &amp; Proqualitas&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--primary: #0061a4; /* Material Blue */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--on-primary: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--secondary-container: #d1e4ff;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--error: #ba1a1a;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--surface: #fdfcff;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--outline: #74777f;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--text: #1a1c1e;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Roboto', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f0f4f8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: flex-start;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 850px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--surface);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 8px 32px rgba(0,0,0,0.05);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: fadeIn 0.8s ease-out;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes fadeIn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>from { opacity: 0; transform: translateY(20px); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>to { opacity: 1; transform: translateY(0); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, var(--primary), #004a80);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--on-primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 60px 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.header-badge {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255,255,255,0.2);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 6px 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 1px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.content {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.interactive-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #e0e2ec;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.interactive-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 20px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1.01);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-icon {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.risk-marker {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-left: 6px solid var(--error);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #fffbfa;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>h2 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.4rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>p {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.7;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.05rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #44474e;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.highlight {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.cta-box {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--secondary-container);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 50px 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-top: 1px solid #c2e8ff;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-group {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 16px 32px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 500;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 2px 4px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn:active { transform: scale(0.95); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-wa { background-color: #25D366; color: white; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-cal { background-color: var(--primary); color: white; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>footer {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--outline);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 600px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.content { padding: 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.btn-group { flex-direction: column; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.btn { justify-content: center; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="header-badge"&gt;Estrategia de Ingeniería Humana 2026&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1 style="margin: 20px 0 10px; font-size: 2.2rem; font-weight: 300;"&gt;Clínica Costanera&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p style="font-size: 1.2rem; opacity: 0.9;"&gt;Hacia la Economía de la Pertenencia&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p style="margin-top: 30px; font-weight: 500;"&gt;Ignacio Gómez · Business Partner Proqualitas&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="interactive-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="material-icons card-icon"&gt;explore&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;El Escenario: Una Promesa en Expansión&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Carlos, la inversión de &lt;span class="highlight"&gt;$9.400 millones&lt;/span&gt; en Las Ánimas no es solo infraestructura física; es el legado de salud del Sur de Chile[cite: 1417]. Pero toda gran historia tiene un nudo crítico: el éxito hoy no depende de los ladrillos, sino de la &lt;span class="highlight"&gt;coherencia&lt;/span&gt; entre lo que la clínica promete afuera y lo que sus equipos viven adentro[cite: 1444, 1445].&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="interactive-card risk-marker"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="material-icons card-icon" style="color: var(--error);"&gt;warning&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;El Desafío: La Fuga de Energía&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Nuestra Masterclass sobre &lt;b&gt;Cuartos Espacios&lt;/b&gt; revela que las clínicas suelen volverse "emocionalmente estériles" ante la alta demanda[cite: 1253, 1446].&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Si los &lt;b&gt;200 nuevos colaboradores&lt;/b&gt; ingresan a una estructura sobrepasada, la "fuga de energía" que observamos en terreno se convertirá en la narrativa oficial de su cultura[cite: 1374, 1448].&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="interactive-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="material-icons card-icon"&gt;auto_awesome&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;La Resolución: Ingeniería Humana&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Proponemos blindar esta expansión mediante dos palancas fundamentales:&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;span class="highlight"&gt;Onboarding como Rito:&lt;/span&gt; Un Cuarto Espacio de Inducción para que el colaborador ancle su propósito a la Clínica desde el día cero[cite: 1386, 1391].&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;span class="highlight"&gt;Coherencia Ley Karin:&lt;/span&gt; El Modelo 9E asegura que el respeto sea la infraestructura emocional que proteja su acreditación[cite: 1331, 1397].&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="interactive-card" style="background-color: #f7f9fc; border: none;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="material-icons card-icon"&gt;verified&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Recomendaciones Estratégicas&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Para jugar en las "grandes ligas" con referentes como &lt;b&gt;UC Christus&lt;/b&gt; o &lt;b&gt;Clínica Dávila&lt;/b&gt;, debemos alinear la eficiencia financiera con la vitalidad cultural[cite: 1402, 1403].&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Sugerimos activar la capacitación vía &lt;b&gt;Franquicia SENCE&lt;/b&gt;, capturando el &lt;b&gt;+40% de incentivo adicional&lt;/b&gt; para financiar esta transformación con costo directo casi cero[cite: 75, 1407].&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="cta-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 style="justify-content: center; color: var(--text);"&gt;¿Conversamos este jueves?&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Carlos, me gustaría validarlo contigo: &lt;b&gt;¿Tendrás 15 minutos este jueves para que junto a nuestro equipo consultor te compartamos cómo Red Salud logró que su expansión masiva no sacrificara el compromiso de sus colaboradores?&lt;/b&gt;&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="btn-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://wa.me/56992827933?text=Hola%20Ignacio,%20me%20interesa%20la%20reunión%20sobre%20Clínica%20Costanera" class="btn btn-wa" target="_blank"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="material-icons"&gt;chat&lt;/span&gt; WhatsApp Directo</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://cal.com/ignaciogomez" class="btn btn-cal" target="_blank"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="material-icons"&gt;calendar_today&lt;/span&gt; Agendar Reunión</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>© 2026 Proqualitas Consultores · Ingeniería Humana para Organizaciones Saludables</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
