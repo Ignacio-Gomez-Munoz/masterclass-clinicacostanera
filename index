@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Visión Estratégica - Clínica Costanera</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --md-sys-color-primary: #0061a4;
+            --md-sys-color-on-primary: #ffffff;
+            --md-sys-color-secondary: #535f70;
+            --md-sys-color-error: #ba1a1a;
+            --md-sys-color-background: #fdfcff;
+            --md-sys-color-surface: #fdfcff;
+            --md-sys-color-surface-variant: #e0e2ec;
+            --md-sys-color-outline: #74777f;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--md-sys-color-background);
+            color: #1a1c1e;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: var(--md-sys-color-surface);
+            border-radius: 28px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background-color: var(--md-sys-color-primary);
+            color: var(--md-sys-color-on-primary);
+            padding: 40px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .card {
+            background: #ffffff;
+            border: 1px solid var(--md-sys-color-surface-variant);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+            border-color: var(--md-sys-color-primary);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--md-sys-color-primary);
+            font-size: 1.25rem;
+        }
+
+        .badge {
+            background: var(--md-sys-color-error);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+
+        .cta-section {
+            background-color: #f0f4f8;
+            padding: 40px;
+            text-align: center;
+            border-radius: 0 0 28px 28px;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 24px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 100px;
+            text-decoration: none;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: opacity 0.2s;
+        }
+
+        .btn-whatsapp { background-color: #25D366; color: white; }
+        .btn-calendar { background-color: var(--md-sys-color-primary); color: white; }
+        .btn:hover { opacity: 0.9; }
+
+        p { line-height: 1.6; color: #44474e; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1 style="margin:0; font-size: 1.75rem;">Visión Estratégica 2026</h1>
+        <p style="color: rgba(255,255,255,0.8); margin: 8px 0 0;">Clínica Costanera hacia la Economía de la Pertenencia</p>
+        <p style="font-size: 0.9rem; margin-top: 15px;"><b>De:</b> Ignacio Gómez, Business Partner Proqualitas</p>
+    </header>
+
+    <div class="content">
+        <div class="card">
+            <h2><span class="material-icons">business</span> 1. El Escenario: Una Promesa en Expansión</h2>
+            <p>Carlos, la inversión de <b>$9.400 millones</b> en Las Ánimas no es solo infraestructura; es el legado de salud del Sur de Chile[cite: 1595]. El éxito hoy depende de la <b>coherencia</b> entre lo que la clínica promete afuera y lo que sus equipos viven adentro cada día[cite: 1152].</p>
+        </div>
+
+        <div class="card" style="border-left: 6px solid var(--md-sys-color-error);">
+            <h2><span class="material-icons">bolt</span> 2. El Desafío: La Fuga de Energía <span class="badge">RIESGO CRÍTICO</span></h2>
+            <p>En nuestra Masterclass sobre <b>Cuartos Espacios</b>, analizamos cómo el personal se siente "secuestrado" por la carga administrativa[cite: 1333, 1403].</p>
+            <ul>
+                <li><b>Riesgo:</b> Si los 200 nuevos colaboradores ingresan a una estructura sobrepasada, la "fuga de energía" detectada en terreno será la narrativa oficial de su cultura[cite: 1552, 1622].</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2><span class="material-icons">psychology</span> 3. La Resolución: Ingeniería Humana</h2>
+            <p>Proponemos transformar esta expansión mediante dos palancas fundamentales:</p>
+            <ul>
+                <li><b>Onboarding como Rito:</b> Diseñar un espacio donde el colaborador ancle su propósito al de la Clínica desde el día cero[cite: 1571].</li>
+                <li><b>Coherencia Ley Karin:</b> Crear una infraestructura emocional basada en la confianza y el cuidado mutuo, protegiendo su acreditación en calidad[cite: 1296, 1461].</li>
+            </ul>
+        </div>
+
+        <div class="card" style="background-color: #f7f9fc;">
+            <h2><span class="material-icons">stars</span> 4. Recomendaciones Estratégicas</h2>
+            <p>Para jugar en las "grandes ligas" con referentes como <b>UC Christus</b> o <b>Dávila</b>, debemos alinear la eficiencia de la GAF con la vitalidad de DO[cite: 1566, 1581].</p>
+            <p><b>Acción sugerida:</b> Activar la capacitación como motor de rentabilidad usando la <b>Franquicia SENCE</b> con el <b>+40% de incentivo</b> por nuevas contrataciones. Financie su transformación con costo directo casi cero[cite: 42, 89].</p>
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <h3 style="margin-top:0;">¿Conversamos este jueves?</h3>
+        <p>Carlos, me gustaría validarlo contigo: <b>¿Tendrás 15 minutos este jueves para que junto a nuestro equipo consultor te compartamos cómo Red Salud logró que su expansión masiva no sacrificara el compromiso de sus colaboradores?</b></p>
+        
+        <div class="btn-group">
+            <a href="https://wa.me/56992827933?text=Hola%20Ignacio,%20me%20interesa%20la%20reunión%20sobre%20Clínica%20Costanera" class="btn btn-whatsapp">
+                <span class="material-icons">chat</span> Hablar por WhatsApp
+            </a>
+            <a href="https://cal.com/ignaciogomez" class="btn btn-calendar">
+                <span class="material-icons">event</span> Agendar en Calendario
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
